@@ -1,0 +1,99 @@
+#app-icon {
+    width: 30px;
+    height: 30px;
+}
+
+#account-icon {
+    width: 32px;
+    height: 32px;
+    margin: -1px;
+}
+
+#right-toolbar{
+    float: right;
+    display: grid;
+    grid-template-columns: 34px 43px 30px 30px;
+    grid-column-gap: 15px;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+#left-toolbar {
+    float: left;
+    display: grid;
+    grid-template-columns: 34px 31px;
+    grid-column-gap: 15px;
+    padding-left: 15px;
+}
+
+#logo-container{
+    margin: auto;
+    margin-top: 47px;
+    height: 233px;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+
+#logo{
+    padding-top: 109px;
+}
+
+#search-box{
+    height: 140px;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 39px 70px;
+}
+
+#search-bar{
+    height: 39px;
+    width: 560px;
+    display: grid;
+    justify-items: center;
+    border-style: solid;
+    border-color:rgb(223, 225,229);
+    border-width: 1px;
+    border-radius: 24px;
+}
+
+#search{
+    border-style: none;
+    height: 34px;
+    width: 487px;
+    margin-bottom: -37px;
+    outline: none;
+}
+
+#buttons{
+    margin-top: 18px;
+}
+
+.button{
+    padding: 0px 16px;
+    border: 1px;
+    margin: 11px 4px;
+    height: 36px;
+    background-color: rgb(242,242,242);
+    border-style: solid;
+    border-color: rgb(242,242,242);
+}
+
+#search-button{
+    width: 127.4px;
+    padding: 0px 16px;
+    border: 1px;
+    margin: 11px 4px;
+    height: 36px;
+    border-radius: 4px;
+}
+
+#lucky-button{
+    width: 142.5px;
+    padding: 0px 16px;
+    border: 1px;
+    margin: 11px 4px;
+    height: 36px;
+    border-radius: 4px;
+}
