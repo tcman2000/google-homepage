@@ -6,20 +6,23 @@
     </head>
 
     <body>
-        <div class="toolbar" id="right-toolbar">
-            <div class="text" id="Gmail">Gmail</div>
-            <div class="text" id="Images">Images</div>
-            <div id="Apps">
-                <img id="app-icon" src="/images/Google_apps_icon.png" alt="apps">
+        <div id="navbar">
+            <ul>
+                <li class="left" id="About">About</li>
+                <li class="left id="Store">Store</li>
+                <div id="right-toolbar">
+                <li class="right" id="Gmail">Gmail</li>
+                <li class="right" id="Images">Images</li>
+                <li class="right" id="Apps">
+                    <img id="app-icon" src="/images/Google_apps_icon.png" alt="apps">
+                </li>
+                <li class="right" id="Account">
+                    <img id="account-icon" src="images/account_icon.png" alt="account">
+                </li>
             </div>
-            <div id="Account">
-                <img id="account-icon" src="images/account_icon.png" alt="account">
-            </div>
-        </div>
-        <div class="toolbar" id="left-toolbar">
-            <div class="text" id="About">About</div>
-            <div class="text" id="Store">Store</div>
-        </div>
+            </ul>
+        </div>  
+
         <div id="logo-container">
             <img id="logo" src="/images/google_logo.png" alt="Google">
         </div>
@@ -35,7 +38,17 @@
             </div>
         </div>
 
-    </body>
+        <div id="footer">
+            <li class="left">Advertising</li>
+            <li class="left">Business</li>
+            <li class="left">How Search works</li>
+            <li id="bottom-right">
+                <div class="right">Privacy</div>
+                <div class="right">Terms</div>
+                <div class="right">Settings</div>
+            </li>
+        </div>
 
+    </body>
 
 </html>
